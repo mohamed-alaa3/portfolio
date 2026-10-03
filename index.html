@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Alaa | IT Student & Full Stack Developer</title>
+<meta name="description" content="Portfolio of Mohamed Alaa, an Information Technology student and Full Stack Developer building practical web applications with Angular, Node.js, Express.js, and MongoDB.">
+<meta name="author" content="Mohamed Alaa">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mohamed Alaa | IT Student & Full Stack Developer">
+<meta property="og:description" content="Portfolio of Mohamed Alaa, an Information Technology student building practical projects across full stack development, cloud, networking and cybersecurity.">
+<meta property="og:image" content="assets/images/og-cover.jpg">
+<meta property="og:url" content="[ADD YOUR PORTFOLIO URL]">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mohamed Alaa | IT Student & Full Stack Developer">
+<meta name="twitter:description" content="IT student building practical full stack, cloud and cybersecurity projects.">
+<meta name="twitter:image" content="assets/images/og-cover.jpg">
+
+<link rel="canonical" href="[ADD YOUR PORTFOLIO URL]">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%2300d4ff%22>M</text></svg>">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Styles -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mohamed Alaa",
+  "jobTitle": "IT Student & Full Stack Developer",
+  "url": "[ADD YOUR PORTFOLIO URL]",
+  "sameAs": ["https://github.com/mohamed-alaa3", "[ADD YOUR LINKEDIN URL]"],
+  "knowsAbout": ["Full Stack Development", "Angular", "Node.js", "MongoDB", "AWS", "Cloud Computing", "Networking", "Cybersecurity"]
+}
+</script>
+</head>
+<body>
+
+<!-- Skip link -->
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- Loading screen -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-mark">
+    <span>M</span><span>A</span>
+  </div>
+</div>
+
+<!-- Scroll progress -->
+<div id="scroll-progress" role="presentation"><div id="scroll-progress-bar"></div></div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Primary">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Mohamed Alaa<span class="brand-dot">.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#journey">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/mohamed-alaa3" target="_blank" rel="noopener" aria-label="GitHub profile">
+            <i class="bi bi-github"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme" aria-pressed="false">
+            <i class="bi bi-moon-stars" id="themeIcon"></i>
+          </button>
+        </li>
+        <li class="nav-item ms-lg-2">
+          <a class="btn btn-cv" href="resume/CV Resume.pdf" download>Download CV</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-6" data-reveal="fade-right">
+          <p class="hero-kicker">Hello, I'm</p>
+          <h1 class="hero-name">Mohamed Alaa</h1>
+          <p class="hero-role">IT Student &amp; Full Stack Developer</p>
+          <p class="hero-desc">
+            I'm an Information Technology student focused on Full Stack Web Development, with hands-on experience
+            building web applications using Angular, Node.js, Express.js, MongoDB, and REST APIs. I'm also developing
+            my knowledge in AWS, networking, cloud computing, cybersecurity, and technical support.
+          </p>
+          <p class="hero-desc-secondary">I learn by building practical projects and turning ideas into functional applications.</p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary-cta">View My Projects</a>
+            <a href="resume/Mohamed-Alaa-CV.pdf" class="btn btn-outline-cta" download>Download CV</a>
+            <a href="#contact" class="btn btn-ghost-cta">Contact Me</a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/mohamed-alaa3" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/mohamed-3laa/?isSelfProfile=true" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="mailto:mohamed5336053@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-reveal="fade-left">
+          <div class="terminal-card">
+            <div class="terminal-titlebar">
+              <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+              <span class="terminal-title">mohamed@portfolio: ~</span>
+            </div>
+            <div class="terminal-body" id="terminalBody" aria-label="Terminal introduction, decorative">
+              <!-- filled by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section"><i class="bi bi-chevron-down"></i></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="row gy-5 align-items-start">
+        <div class="col-lg-6" data-reveal="fade-up">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-text">
+            I am a 21-year-old Information Technology student with a strong interest in Full Stack Web Development and
+            practical software development. I enjoy building complete applications, working with APIs and databases,
+            and understanding how different parts of a system work together.
+          </p>
+          <p class="section-text">
+            My current development stack includes Angular on the frontend and Node.js/Express.js with MongoDB on the
+            backend. I have also worked with authentication, REST APIs, Cloudinary image storage, Postman, Git/GitHub,
+            and deployment-related concepts.
+          </p>
+          <p class="section-text">
+            Alongside development, I'm expanding my knowledge in AWS, cloud computing, networking, cybersecurity, and
+            technical support.
+          </p>
+        </div>
+        <div class="col-lg-6" data-reveal="fade-up">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="stat-card">
+                <span class="stat-number" data-count="21">0</span>
+                <span class="stat-label">Age</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="stat-card">
+                <span class="stat-number-text">IT</span>
+                <span class="stat-label">Field of Study</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="stat-card">
+                <span class="stat-number-text">Full Stack</span>
+                <span class="stat-label">Development Focus</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="stat-card">
+                <span class="stat-number-text">AWS + Security</span>
+                <span class="stat-label">Learning Areas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title" data-reveal="fade-up">Skills</h2>
+      <p class="section-lede" data-reveal="fade-up">Technologies I use, and technologies I'm actively learning.</p>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="skill-card">
+            <h3><i class="bi bi-code-slash"></i> Frontend Development</h3>
+            <ul class="skill-list">
+              <li><span>HTML5</span><em>Hands-on</em></li>
+              <li><span>CSS3</span><em>Hands-on</em></li>
+              <li><span>JavaScript</span><em>Hands-on</em></li>
+              <li><span>Bootstrap</span><em>Hands-on</em></li>
+              <li><span>Angular 16</span><em>Intermediate</em></li>
+              <li><span>TypeScript</span><em>Intermediate</em></li>
+              <li><span>Reactive Forms</span><em>Familiar</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="skill-card">
+            <h3><i class="bi bi-hdd-network"></i> Backend Development</h3>
+            <ul class="skill-list">
+              <li><span>Node.js</span><em>Intermediate</em></li>
+              <li><span>Express.js</span><em>Intermediate</em></li>
+              <li><span>REST APIs</span><em>Hands-on</em></li>
+              <li><span>JWT / Authentication</span><em>Hands-on</em></li>
+              <li><span>Nodemailer</span><em>Familiar</em></li>
+              <li><span>Multer</span><em>Familiar</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="skill-card">
+            <h3><i class="bi bi-database"></i> Database</h3>
+            <ul class="skill-list">
+              <li><span>MongoDB</span><em>Intermediate</em></li>
+              <li><span>MongoDB Atlas</span><em>Hands-on</em></li>
+              <li><span>Mongoose</span><em>Intermediate</em></li>
+              <li><span>MySQL</span><em>Familiar</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="skill-card">
+            <h3><i class="bi bi-cloud"></i> Cloud</h3>
+            <ul class="skill-list">
+              <li><span>AWS</span><em>Learning</em></li>
+              <li><span>EC2</span><em>Hands-on</em></li>
+              <li><span>RDS</span><em>Hands-on</em></li>
+              <li><span>EBS</span><em>Familiar</em></li>
+              <li><span>IAM</span><em>Familiar</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="skill-card">
+            <h3><i class="bi bi-diagram-3"></i> Networking</h3>
+            <ul class="skill-list">
+              <li><span>TCP/IP</span><em>Good Knowledge</em></li>
+              <li><span>DNS</span><em>Good Knowledge</em></li>
+              <li><span>DHCP</span><em>Good Knowledge</em></li>
+              <li><span>VLAN</span><em>Familiar</em></li>
+              <li><span>Routing &amp; Switching</span><em>Familiar</em></li>
+              <li><span>Subnetting</span><em>Good Knowledge</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="skill-card">
+            <h3><i class="bi bi-shield-lock"></i> Cybersecurity</h3>
+            <ul class="skill-list">
+              <li><span>Cybersecurity Fundamentals</span><em>Learning</em></li>
+              <li><span>Network Security Fundamentals</span><em>Learning</em></li>
+              <li><span>Firewall Concepts</span><em>Familiar</em></li>
+              <li><span>VPN Concepts</span><em>Familiar</em></li>
+              <li><span>Security Monitoring Fundamentals</span><em>Learning</em></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="skill-card">
+            <h3><i class="bi bi-tools"></i> Tools</h3>
+            <ul class="skill-list">
+              <li><span>Git &amp; GitHub</span><em>Hands-on</em></li>
+              <li><span>VS Code</span><em>Hands-on</em></li>
+              <li><span>Postman</span><em>Hands-on</em></li>
+              <li><span>npm</span><em>Hands-on</em></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT I CAN BUILD -->
+  <section id="build" class="section">
+    <div class="container">
+      <h2 class="section-title" data-reveal="fade-up">What I Can Build</h2>
+      <p class="section-lede" data-reveal="fade-up">Practical work I take on as I grow — not commercial services, but real capability.</p>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="build-card">
+            <i class="bi bi-layers"></i>
+            <h3>Full Stack Web Applications</h3>
+            <p>Building complete web applications with Angular, Node.js, Express.js, and MongoDB.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="build-card">
+            <i class="bi bi-window"></i>
+            <h3>Frontend Development</h3>
+            <p>Responsive and interactive interfaces using HTML, CSS, JavaScript, Bootstrap, Angular, and TypeScript.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="build-card">
+            <i class="bi bi-plug"></i>
+            <h3>Backend APIs</h3>
+            <p>Building REST APIs, authentication systems, database integrations, and server-side functionality.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="build-card">
+            <i class="bi bi-server"></i>
+            <h3>Database-Driven Applications</h3>
+            <p>Working with MongoDB, Mongoose, MongoDB Atlas, and MySQL.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="build-card">
+            <i class="bi bi-router"></i>
+            <h3>IT &amp; Networking Projects</h3>
+            <p>Applying IT, networking, and infrastructure concepts in practical projects and labs.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-reveal="fade-up">
+          <div class="build-card">
+            <i class="bi bi-shield-check"></i>
+            <h3>Cloud &amp; Cybersecurity Learning Projects</h3>
+            <p>Building practical projects while developing knowledge in AWS, cloud infrastructure, networking, and cybersecurity.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title" data-reveal="fade-up">Featured Projects</h2>
+      <p class="section-lede" data-reveal="fade-up">Real projects from my development journey.</p>
+
+      <div class="project-controls" data-reveal="fade-up">
+        <div class="filter-group" id="filterGroup" role="tablist" aria-label="Filter projects by category">
+          <button class="filter-btn active" data-filter="all" type="button">All</button>
+          <button class="filter-btn" data-filter="Full Stack" type="button">Full Stack</button>
+          <button class="filter-btn" data-filter="Frontend" type="button">Frontend</button>
+          <button class="filter-btn" data-filter="Backend" type="button">Backend</button>
+          <button class="filter-btn" data-filter="Cloud" type="button">Cloud</button>
+          <button class="filter-btn" data-filter="Cybersecurity" type="button">Cybersecurity</button>
+          <button class="filter-btn" data-filter="Networking" type="button">Networking</button>
+        </div>
+        <div class="search-group">
+          <i class="bi bi-search"></i>
+          <input type="search" id="projectSearch" placeholder="Search projects..." aria-label="Search projects">
+        </div>
+      </div>
+
+      <div class="row g-4" id="projectsGrid" data-reveal="fade-up">
+        <!-- rendered by projects.js -->
+      </div>
+      <p class="text-center empty-state d-none" id="projectsEmpty">No projects match your search.</p>
+    </div>
+  </section>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="projectModalLabel"></h2>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="projectModalBody">
+          <!-- rendered by projects.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LEARNING JOURNEY -->
+  <section id="journey" class="section">
+    <div class="container">
+      <h2 class="section-title" data-reveal="fade-up">Learning Journey</h2>
+      <p class="section-lede" data-reveal="fade-up">No fixed jobs yet — this is how my skills have actually developed.</p>
+
+      <ol class="timeline" data-reveal="fade-up">
+        <li class="timeline-item">
+          <div class="timeline-marker"><i class="bi bi-mortarboard"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Current</span>
+            <h3>Information Technology Student</h3>
+            <ul>
+              <li>Studying Information Technology</li>
+              <li>Developing web applications</li>
+              <li>Learning software engineering concepts</li>
+              <li>Working on practical projects</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker"><i class="bi bi-code-square"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Hands-on Projects &amp; Training</span>
+            <h3>Full Stack Development</h3>
+            <ul>
+              <li>Angular</li>
+              <li>Node.js / Express.js</li>
+              <li>MongoDB</li>
+              <li>REST APIs &amp; Authentication</li>
+              <li>Git / GitHub</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker"><i class="bi bi-cloud-arrow-up"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">AWS Practical Labs</span>
+            <h3>Cloud Computing</h3>
+            <ul>
+              <li>EC2</li>
+              <li>RDS</li>
+              <li>EBS</li>
+              <li>IAM</li>
+              <li>Security Groups</li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker"><i class="bi bi-shield-lock"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-tag">Training &amp; Self-Learning</span>
+            <h3>Cybersecurity &amp; Networking</h3>
+            <ul>
+              <li>Networking fundamentals</li>
+              <li>Security fundamentals</li>
+              <li>Firewall concepts</li>
+              <li>VPN</li>
+              <li>Network security</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title" data-reveal="fade-up">Education</h2>
+      <div class="education-card" data-reveal="fade-up">
+        <div class="education-icon"><i class="bi bi-mortarboard-fill"></i></div>
+        <div>
+          <h3>Faculty of Computers and Artificial Intelligence</h3>
+          <p class="education-dept">Department of Information Technology</p>
+          <p class="education-focus">Current learning focus: Full Stack Web Development, Cloud Computing, and Cybersecurity fundamentals.</p>
+          <div class="education-tags">
+            <span>Web Development</span>
+            <span>Databases</span>
+            <span>Networking</span>
+            <span>Cybersecurity</span>
+            <span>Software Engineering</span>
+            <span>Cloud Computing</span>
+            <span>AI Fundamentals</span>
+            <span>Computer Systems</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <h2 class="section-title" data-reveal="fade-up">Certifications &amp; Training</h2>
+      <p class="section-lede" data-reveal="fade-up">Add your real certificates below — placeholders are marked clearly until replaced.</p>
+
+      <div class="row g-4" data-reveal="fade-up">
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-card">
+            <i class="bi bi-patch-check"></i>
+            <h3>CERTIFICATE_NAME</h3>
+            <p class="cert-org">ORGANIZATION</p>
+            <p class="cert-date">DATE</p>
+            <a href="CERTIFICATE_FILE" class="btn btn-sm btn-cert-view">View Certificate</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-card">
+            <i class="bi bi-patch-check"></i>
+            <h3>CERTIFICATE_NAME</h3>
+            <p class="cert-org">ORGANIZATION</p>
+            <p class="cert-date">DATE</p>
+            <a href="CERTIFICATE_FILE" class="btn btn-sm btn-cert-view">View Certificate</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-card">
+            <i class="bi bi-patch-check"></i>
+            <h3>CERTIFICATE_NAME</h3>
+            <p class="cert-org">ORGANIZATION</p>
+            <p class="cert-date">DATE</p>
+            <a href="CERTIFICATE_FILE" class="btn btn-sm btn-cert-view">View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GITHUB -->
+  <section id="github" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title" data-reveal="fade-up">GitHub &amp; Projects</h2>
+      <p class="section-lede" data-reveal="fade-up">Explore my repositories, experiments, and development journey.</p>
+
+      <div id="githubStatus" class="github-status" data-reveal="fade-up">
+        <div class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></div>
+        <span>Loading repositories from GitHub...</span>
+      </div>
+
+      <div class="row g-4" id="githubGrid" data-reveal="fade-up"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5" data-reveal="fade-right">
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-text">I'm always interested in learning, building projects, and connecting with people in technology.</p>
+
+          <ul class="contact-list">
+            <li><i class="bi bi-envelope"></i><a href="mailto:mohamed5336053@gmail.com">mohamed5336053@gmail.com</a></li>
+            <li><i class="bi bi-github"></i><a href="https://github.com/mohamed-alaa3" target="_blank" rel="noopener">github.com/mohamed-alaa3</a></li>
+            <li><i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/mohamed-3laa/?isSelfProfile=true" target="_blank" rel="noopener">mohamed-3laa</a></li>
+            <li><i class="bi bi-geo-alt"></i><span>Egypt</span></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-7" data-reveal="fade-left">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="cf-name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="cf-name" name="name" required minlength="2">
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="col-md-6">
+                <label for="cf-email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="cf-email" name="email" required>
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+              </div>
+              <div class="col-12">
+                <label for="cf-subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="cf-subject" name="subject" required minlength="3">
+                <div class="invalid-feedback">Please enter a subject.</div>
+              </div>
+              <div class="col-12">
+                <label for="cf-message" class="form-label">Message</label>
+                <textarea class="form-control" id="cf-message" name="message" rows="5" required minlength="10"></textarea>
+                <div class="invalid-feedback">Please write a message (at least 10 characters).</div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary-cta w-100 w-sm-auto">Send Message</button>
+                <p class="form-note">This form is not yet connected to an email service. It is ready for integration with EmailJS, Formspree, or a Node.js API.</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <a class="footer-brand" href="#home">Mohamed Alaa<span class="brand-dot">.</span></a>
+        <p>IT Student | Full Stack Developer</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-socials">
+        <h4>Social</h4>
+        <div class="socials-row">
+          <a href="https://github.com/mohamed-alaa3" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="[ADD YOUR LINKEDIN URL]" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:[ADD YOUR EMAIL ADDRESS]" aria-label="Email"><i class="bi bi-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="currentYear"></span> Mohamed Alaa. All Rights Reserved.</p>
+      <p>Designed &amp; Developed by Mohamed Alaa</p>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top" type="button"><i class="bi bi-arrow-up"></i></button>
+
+<!-- Toast container -->
+<div class="toast-container position-fixed bottom-0 end-0 p-3" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" defer></script>
+<script src="js/projects.js" defer></script>
+<script src="js/github.js" defer></script>
+<script src="js/contact.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
